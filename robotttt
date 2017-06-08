@@ -1,0 +1,36 @@
+# sprite = codesters.Square(x, y, width, "color")
+face = codesters.Square(0, 0, 300, "purple"
+)
+
+# sprite = codesters.Star(x, y, points, radius, "color")
+eye1 = codesters.Star(50, 50, 5, 30, "gold")
+
+# sprite = codesters.Polygon(x, y, sides, radius, "color")
+eye2 = codesters.Polygon(-50, 50, 6, 30, "orange")
+
+# sprite = codesters.Rectangle(x, y, width, height, "color")
+antenna = codesters.Rectangle(-125, 178, 15, 75, "black")
+
+# sprite = codesters.Ellipse(x, y, width, height, "color")
+mouth = codesters.Ellipse(0, -50, 125, 30, "green")
+
+
+eye2.set_speed(2)
+eye2.turn_left(720)
+eye1.set_speed(2)
+eye1.turn_right(720)
+antenna.set_speed(4)
+antenna.turn_left(360)
+
+
+#sprite = codesters.Line(x-start, y-start, x-end, y-end, "color")
+sprite = codesters.Line(-140, 200, -170, 220, "gold")
+#sprite = codesters.Line(x-start, y-start, x-end, y-end, "color")
+sprite = codesters.Line(-135, 220, -145, 240, "gold")
+#sprite = codesters.Line(x-start, y-start, x-end, y-end, "color")
+sprite = codesters.Line(-120, 220, -110, 240, "gold")
+#sprite = codesters.Line(x-start, y-start, x-end, y-end, "color")
+sprite = codesters.Line(-110, 200, -80, 220, "gold")
+
+
+
